@@ -1,0 +1,15 @@
+
+# Bitacora de Javier Mas sobre la conversion de los archivos de camac_sugar_EdE
+# A los archivos se les cambia el nombre para que el programa los lea a todos
+# los archivos y sus nuevos nombres:
+
+1-EdE_calib_01.txt => run000.txt
+2-EdE_calib_02.txt => run001.txt
+3-EdE_calib_03.txt => run002.txt
+
+Salidas del Programa:
+-uncalib1.root => Archivo .root que almacena la columna #1 de todos los archivos que equivalen al primer detector 
+-uncalib2.root => Archivo .root que almecena la columna #2 de todos los archivos que equivalen al segundo detector
+
+-f2simnra => Carperta que almacena los archivos listos de entrada para simnra:
+se llaman hist*.txt donde el *= 0_1 (significa run000.txt detector 1 o columna 1), otro ejemplo * = 2_2 (significa run002.txt, detector 2 o columna 2 del fichero de entrada)  
